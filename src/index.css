@@ -7,3 +7,62 @@ html {
 *::before {
   box-sizing: inherit;
 }
+
+div.main-wrapper {
+  padding: 20px;
+}
+
+input[type="button"] {
+  cursor: pointer;
+}
+
+.pagination input[type="button"] {
+  border: none;
+  background-color: #ffffff;
+}
+
+.pagination input[type="button"].active {
+  border: 1px solid black;
+  background-color: gray;
+}
+
+table thead tr th {
+  cursor: pointer;
+  width: 100px;
+  position: relative;
+}
+
+table thead tr th i {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  opacity: 0.5;
+}
+
+.search-block {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 5px;
+}
+
+.search-block .search-title {
+  padding-right: 10px;
+}
+
+.search-block input {
+  height: 30px;
+}
+
+.search-block input[type="button"] {
+  width: 100px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div.pagination input[type="button"] {
+  width: 50px;
+  height: 30px;
+}
